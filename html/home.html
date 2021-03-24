@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body id = "fondo">
+    <script>
+        function a() {
+
+            var i=document.getElementById("fondo")
+            i.style.backgroundColor = "red"
+            
+        }
+        function regresar() {
+            var i=document.getElementById("fondo")
+            i.style.backgroundColor = ""
+            
+        }
+  
+    </script>
+    <section>
+        <h1 class="title centrar ajust">Titulo de mi pagina web</h1>
+    </section>
+    <nav class="centrar-link negro">
+        <ul>
+            <li><a  href="index.html">Menu</a></li>
+            <li><a  href="about.html">conocenos</a></li>
+
+        </ul>
+    </nav>
+    <form >
+        <input type="button" value="rojo" onclick="a()">
+        <input type="button" value="regresar" onclick="regresar()">
+    </form>
+
+
+</body>
+</html>

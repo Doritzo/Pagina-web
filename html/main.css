@@ -1,0 +1,32 @@
+.align{
+    display: inline;
+}
+.title{
+    font-size: 20px;
+    font-family: helvetica, Arial;
+}
+.centrar{
+    text-align: center;
+}
+.imagen{
+    width: 150px;
+    height: 150px;
+}
+.centrar-link > ul{
+    display: flex;
+    justify-content: center;
+}
+li {
+    margin: 0 .75rem;
+  }
+.negro{
+    background: black;
+}
+a{
+    color: orange;
+}
+.parrafo{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
