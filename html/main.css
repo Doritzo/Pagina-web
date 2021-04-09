@@ -56,9 +56,10 @@ a{
 }
 #nav{
     position: fixed;
+
     background: black;
     width: 150px;
-    height: 600px;
+    height: 1000px;
     left: -150px;
     transition: all 150ms linear;
  
@@ -83,6 +84,17 @@ div.a{
     text-decoration: none;
     cursor: pointer;
 }
+.image:hover{
+border: 5px solid red;
+}
 .image{
-    border-radius: 5px;
+    background: royalblue;
+    width: 200px;
+    height: auto;
+}
+.btn{
+    padding: 10px;
+}
+*{
+    margin: 5px;
 }
